@@ -1,0 +1,144 @@
+#define GAME_VERSION "8.3"
+
+#define MD5_KEY "8raSub9zutuhesU3upHUzafRenekaBapHew52QUcRunUyuc3gestuWEReF3cET8U"
+
+#define DAYS    *864000
+#define DAY     *864000
+#define HOURS   *36000
+#define HOUR    *36000
+#define MINUTES *600
+#define MINUTE  *600
+#define SECONDS *10
+#define SECOND  *10
+#define TICKS   *1
+#define TICK    *1
+#define MILLISECONDS /100
+#define MILLISECOND  /100
+
+#define DTA_ADMIN_BASE
+#define DTA_ADMIN_EXTENDED
+// DM Environment file for cowed.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+/*
+FILE: 
+*/
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include <dantom\db\db.dme>
+#include <deadron\texthandling\TextHandling.dme>
+#include "skin.dmf"
+#include "themap.dmm"
+#include "code\BuiltThings.dm"
+#include "code\Bushs_Berrys.dm"
+#include "code\Cannons.dm"
+#include "code\chests.dm"
+#include "code\Cowed.dm"
+#include "code\layers.dm"
+#include "code\magic.dm"
+#include "code\Monsters.dm"
+#include "code\Shackle.dm"
+#include "code\Turfs.dm"
+#include "code\Verbs.dm"
+#include "coding\areas.dm"
+#include "coding\atoms.dm"
+#include "coding\berry_effects.dm"
+#include "coding\boats.dm"
+#include "coding\build_proc.dm"
+#include "coding\changelog.dm"
+#include "coding\character_handling.dm"
+#include "coding\classes.dm"
+#include "coding\client.dm"
+#include "coding\crafting.dm"
+#include "coding\dta_player.dm"
+#include "coding\game.dm"
+#include "coding\holodeck.dm"
+#include "coding\hud.dm"
+#include "coding\map_editor.dm"
+#include "coding\map_objects.dm"
+#include "coding\mobs.dm"
+#include "coding\MySQL.dm"
+#include "coding\objs.dm"
+#include "coding\paint.dm"
+#include "coding\procs.dm"
+#include "coding\projectiles.dm"
+#include "coding\Settings.dm"
+#include "coding\spells.dm"
+#include "coding\turfs.dm"
+#include "coding\voting.dm"
+#include "coding\world.dm"
+#include "coding\admin\admin.dm"
+#include "coding\admin\client.dm"
+#include "coding\admin\council.dm"
+#include "coding\admin\developer.dm"
+#include "coding\admin\global.dm"
+#include "coding\admin\log.dm"
+#include "coding\admin\player.dm"
+#include "coding\admin\pm.dm"
+#include "coding\admin\viewscreen.dm"
+#include "coding\animals\animals.dm"
+#include "coding\animals\npcs.dm"
+#include "coding\animals\schoolofmagic.dm"
+#include "coding\items\armour.dm"
+#include "coding\items\items.dm"
+#include "coding\items\misc.dm"
+#include "coding\items\weapons.dm"
+#include "coding\mobs\revive.dm"
+#include "coding\mobs\AI\AI.dm"
+#include "coding\mobs\AI\Frogman.dm"
+#include "coding\mobs\AI\Zombie.dm"
+#include "coding\objs\anvil.dm"
+#include "coding\objs\chronojohn.dm"
+#include "coding\objs\drawbridge.dm"
+#include "coding\objs\gate.dm"
+#include "coding\objs\mage_containment.dm"
+#include "coding\objs\school_of_magic.dm"
+#include "coding\objs\vein.dm"
+#include "coding\objs\families\edison.dm"
+#include "coding\objs\families\farnsworth.dm"
+#include "coding\objs\families\tonton.dm"
+#include "coding\snippets\ActionLock.dm"
+#include "coding\snippets\angle.dm"
+#include "coding\snippets\BubbleSort.dm"
+#include "coding\snippets\cacheicon.dm"
+#include "coding\snippets\duplicate.dm"
+#include "coding\snippets\estimate_time.dm"
+#include "coding\snippets\findTexts.dm"
+#include "coding\snippets\IsNum.dm"
+#include "coding\snippets\PhaseIcons.dm"
+#include "coding\snippets\replaceText.dm"
+#include "coding\snippets\sd_DynamicAreaLighting.dm"
+#include "coding\snippets\SwapMaps.dm"
+#include "coding\snippets\trim.dm"
+#include "coding\spells\building.dm"
+#include "coding\spells\eclipse.dm"
+#include "coding\spells\enchant.dm"
+#include "coding\spells\fireball.dm"
+#include "coding\spells\ghost.dm"
+#include "coding\spells\glow.dm"
+#include "coding\spells\heal.dm"
+#include "coding\spells\iceball.dm"
+#include "coding\spells\lockpick.dm"
+#include "coding\spells\message.dm"
+#include "coding\spells\necromancer.dm"
+#include "coding\spells\portal.dm"
+#include "coding\spells\power_mimic.dm"
+#include "coding\spells\psychic.dm"
+#include "coding\spells\school_of_magic.dm"
+#include "coding\spells\shield.dm"
+#include "coding\spells\subdue_magic.dm"
+#include "coding\spells\teleport.dm"
+#include "coding\spells\zap.dm"
+#include "coding\spells\zeth_teleport.dm"
+#include "maps\bovinia.dmm"
+// END_INCLUDE
+
